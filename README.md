@@ -74,6 +74,7 @@ All the training and testing processes are included in tf_process.py and will be
 ![c82643399914f46d1e20f4a08332d43](https://user-images.githubusercontent.com/36658078/208318623-91333226-f444-43e0-bd1d-8496b32379f9.png)
 
 Sample Testing Output:
+
 ![633ba2ff4aa21659ddfc75fb0cd2017](https://user-images.githubusercontent.com/36658078/208319321-1784658a-d4bb-4629-b8b9-5d79bcaa6989.png)
 
 
@@ -83,7 +84,11 @@ It takes approximately 10 hours to complete 20 epochs with a batch size of 64. W
 
 ## References
 [1]	Dhamecha. (2021). A Detailed Explanation of GAN with Implementation Using Tensorflow and Keras. Data Science Blogathon. 
+
 [2]	Wang, Q., Fan, H., Sun, G., Ren, W., & Tang, Y. (2020). Recurrent generative adversarial network for face completion. IEEE Transactions on Multimedia, 23, 429-442.
+
 [3]	Din, N. U., Javed, K., Bae, S., & Yi, J. (2020). A novel GAN-based network for unmasking of masked face. IEEE Access, 8, 44276-44287. 
+
 [4]	Liu, H., Jiang, B., Xiao, Y., & Yang, C. (2019). Coherent semantic attention for image inpainting. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 4170-4179). 
+
 Code reference: https://github.com/YeongHyeon/Context-Encoder
