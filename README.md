@@ -17,6 +17,7 @@ Global pandemic due to the spread of COVID-19 has post challenges in a new dimen
 ```
 ## Data preparation 
 You need to download the data from http://www.seeprettyface.com/mydataset_page3.html
+
 And change the PACK_PATH based on data path on your own computer in datamanager.py
 
 
