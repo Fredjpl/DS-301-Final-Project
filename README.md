@@ -3,6 +3,9 @@
 ## Introduction
 Global pandemic due to the spread of COVID-19 has post challenges in a new dimension on facial recognition, where people start to wear masks. Under such condition, we consider utilizing machine learning in image inpainting to tackle the problem, by complete the possible face that is originally covered in mask. In particular, autoencoder has great potential on retaining important, general features of the image as well as the generative power of the `generative adversarial network (GAN)`. We implement a combination of the two models, context encoders and explain how it combines the power of the two models and train the model with 50,000 images of influencers faces and yields a solid result that still contains space for improvements. 
 
+![a3ed52ceff3ebd245ee2b5387678529](https://user-images.githubusercontent.com/36658078/208319565-e3a9cb19-6b17-4b33-9bf3-d860188aa68d.png)
+
+
 ## Code structure
 ```
 |   ...
@@ -70,11 +73,12 @@ All the training and testing processes are included in tf_process.py and will be
 
 ![c82643399914f46d1e20f4a08332d43](https://user-images.githubusercontent.com/36658078/208318623-91333226-f444-43e0-bd1d-8496b32379f9.png)
 
+Sample Testing Output:
+![633ba2ff4aa21659ddfc75fb0cd2017](https://user-images.githubusercontent.com/36658078/208319321-1784658a-d4bb-4629-b8b9-5d79bcaa6989.png)
+
 
 Observation:  
-ResNet50 has a slightly better mAP than MobilNetV3.  
-However, it is 3x slower than MobilNetV3 during inference.  
-Since there is not a marginal difference of the mAP between `MobilNetV3` and `ResNet50`, we prefer `MobilNetV3`.
+It takes approximately 10 hours to complete 20 epochs with a batch size of 64. While it seems an acceptable on the time scale, consider the fact we are training based on image size 128✕128, training datasets with larger image size, such as 512✕512 for example, may take longer time, possibly on an exponential. It is possible that the model requires less training time once given a proper batch size. Also, from the sample image above, we can find that the edge of impainting part is somehow inconsistent with the original image, which needs further improvement.
 
 
 ## References
