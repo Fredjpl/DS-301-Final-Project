@@ -46,6 +46,7 @@ All the training and testing processes are included in tf_process.py and will be
 
 
 |Epoch|Error(MSE)|
+|----- | ------|
 |  1  | 6365.84 |
 |  2  | 6566.12 |
 |  3	| 2901.91 |
