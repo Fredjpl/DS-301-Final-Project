@@ -8,6 +8,8 @@ from sklearn.utils import shuffle
 from skimage.transform import resize
 
 #PACK_PATH = os.path.dirname("../Data/")
+# You need to download the data from http://www.seeprettyface.com/mydataset_page3.html
+# And change the PACK_PATH based on data path on your own computer
 PACK_PATH = os.path.join("C:/Users/35132/Desktop/machine learning/gan/")
 print(PACK_PATH)
 class Dataset(object):
