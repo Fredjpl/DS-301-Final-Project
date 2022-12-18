@@ -83,7 +83,7 @@ Sample Testing Output:
 
 
 Observation:  
-It takes approximately 10 hours to complete 20 epochs with a batch size of 64. While it seems an acceptable on the time scale, consider the fact we are training based on image size 128✕128, training datasets with larger image size, such as 512✕512 for example, may take longer time, possibly on an exponential. It is possible that the model requires less training time once given a proper batch size. Also, from the sample image above, we can find that the edge of impainting part is somehow inconsistent with the original image, which needs further improvement.
+It takes approximately 10 hours to complete 20 epochs with a batch size of 64. While it seems an acceptable on the time scale, consider the fact we are training based on image size 128✕128, training datasets with larger image size, such as 512✕512 for example, may take longer time, possibly on an exponential. It is possible that the model requires less training time once given a proper batch size. Also, from the sample image above, we can find that the edge of inpainting part is somehow inconsistent with the original image, which needs further improvement.
 
 
 ## References
