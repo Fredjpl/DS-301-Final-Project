@@ -3,7 +3,7 @@
 ## Introduction
 Global pandemic due to the spread of COVID-19 has post challenges in a new dimension on facial recognition, where people start to wear masks. Under such condition, we consider utilizing machine learning in image inpainting to tackle the problem, by complete the possible face that is originally covered in mask. In particular, `Auto-Encoder` has great potential on retaining important, general features of the image as well as the generative power of the `generative adversarial network (GAN)`. We implement a combination of the two models, context encoders and explain how it combines the power of the two models and train the model with 50,000 images of influencers faces and yields a solid result that still contains space for improvements. 
 
-Implementation of Auto-Encoder:
+The Implementation of Auto-Encoder:
 
 ![a3ed52ceff3ebd245ee2b5387678529](https://user-images.githubusercontent.com/36658078/208319565-e3a9cb19-6b17-4b33-9bf3-d860188aa68d.png)
 
