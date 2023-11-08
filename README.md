@@ -9,7 +9,7 @@ The Implementation of Auto-Encoder:
 
 
 ## Publication
-GAN-based Algorithm for Efficient Image Inpainting [https://arxiv.org/abs/2309.07293]
+[GAN-based Algorithm for Efficient Image Inpainting] (https://arxiv.org/abs/2309.07293)
 ## Code structure
 ```
 |   ...
