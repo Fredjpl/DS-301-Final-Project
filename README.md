@@ -88,12 +88,30 @@ It takes approximately 10 hours to complete 20 epochs with a batch size of 64. W
 
 
 ## References
-[1]	Dhamecha. (2021). A Detailed Explanation of GAN with Implementation Using Tensorflow and Keras. Data Science Blogathon. 
 
-[2]	Wang, Q., Fan, H., Sun, G., Ren, W., & Tang, Y. (2020). Recurrent generative adversarial network for face completion. IEEE Transactions on Multimedia, 23, 429-442.
-
-[3]	Din, N. U., Javed, K., Bae, S., & Yi, J. (2020). A novel GAN-based network for unmasking of masked face. IEEE Access, 8, 44276-44287. 
-
-[4]	Liu, H., Jiang, B., Xiao, Y., & Yang, C. (2019). Coherent semantic attention for image inpainting. In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 4170-4179). 
+[1] Dhamecha. (2021). A Detailed Explanation of GAN with Implementation Using Tensorflow and Keras. Data
+Science Blogathon.
+[2] Wang, Q., Fan, H., Sun, G., Ren, W., & Tang, Y. (2020). Recurrent generative adversarial network for face
+completion. IEEE Transactions on Multimedia, 23, 429-442.
+[3] Din, N. U., Javed, K., Bae, S., & Yi, J. (2020). A novel GAN-based network for unmasking of masked face.
+IEEE Access, 8, 44276-44287.
+[4] Liu, H., Jiang, B., Xiao, Y., & Yang, C. (2019). Coherent semantic attention for image inpainting.
+In Proceedings of the IEEE/CVF International Conference on Computer Vision (pp. 4170-4179).
+[5] Yu, J., Lin, Z., Yang, J., Shen, X., Lu, X., & Huang, T. S. (2018). Generative image inpainting with contextual
+attention. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 5505-5514).
+[6] Pathak, D., Krahenbuhl, P., Donahue, J., Darrell, T., & Efros, A. A. (2016). Context encoders: Feature learning
+by inpainting. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 2536-
+2544).
+[7] Chen, L., Fei, H., Xiao, Y., He, J., & Li, H. (2017, July). Why batch normalization works? a buckling
+perspective. In 2017 IEEE International Conference on Information and Automation (ICIA) (pp. 1184-1189).
+IEEE.
+[8] Wu, S., Li, G., Deng, L., Liu, L., Wu, D., Xie, Y., & Shi, L. (2018). $ L1 $-norm batch normalization for
+efficient training of deep neural networks. IEEE transactions on neural networks and learning systems, 30(7),
+2043-2051.
+[9] Zhou, Y. (2022). The Efficient Implementation of Face Mask Detection Using MobileNet. In Journal of Physics:
+Conference Series (Vol. 2181, No. 1, p. 012022). IOP Publishing.
+[10]Tran, L., Yin, X., & Liu, X. (2017). Disentangled representation learning gan for pose-invariant face
+recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1415-
+1424).
 
 Code reference: https://github.com/YeongHyeon/Context-Encoder
