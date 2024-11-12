@@ -7,9 +7,6 @@ The Implementation of Auto-Encoder:
 
 ![a3ed52ceff3ebd245ee2b5387678529](https://user-images.githubusercontent.com/36658078/208319565-e3a9cb19-6b17-4b33-9bf3-d860188aa68d.png)
 
-
-## Publication
-[GAN-based Algorithm for Efficient Image Inpainting](https://arxiv.org/abs/2309.07293)
 ## Code structure
 ```
 |   ...
